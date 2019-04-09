@@ -22,6 +22,8 @@
 - Install Django REST Framework,
 - Create a Django project, `django-admin.py startproject app . `
 - Install Postgres,
+- Flake8, `pip install flake8`
+   - Create a flake8 config file in app dir
 
 ## Notes
 
@@ -29,7 +31,14 @@
 - Docker will not run on Windows 10 Home but will run on Windows 10 Professional. 
   - Windows 10 home version does not have Hyper -V which Docker uses for virtualization
   
+## Git
 
+```
+git add .
+git commit -a
+  //add message, esc, :wq
+git push origin
+```
 
 
 ## Sources
