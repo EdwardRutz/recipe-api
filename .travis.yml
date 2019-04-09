@@ -1,0 +1,9 @@
+language: python
+python: 
+  - "3.7"
+  
+  before_script:
+  
+  script: 
+    - run app sh -c "python manage.py test && flake8"
+  
