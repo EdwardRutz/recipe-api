@@ -22,6 +22,7 @@ A Python, Django, PostGres, REST, recipe API.
 - Django (ORM and Admin) 2.2, `pip install django`
 - Django REST Framework 3.9.2, `pip install djangorestframework`
 - Travis-CI
+- Flake8, `pip install flake8`
 
 ## Set-Up
 
@@ -37,4 +38,8 @@ A Python, Django, PostGres, REST, recipe API.
 - [Udemy: Build a Backend REST API with Python & Django - Advanced](https://www.udemy.com/django-python-advanced/)
 - [Django](https://www.djangoproject.com/)
 - [Django REST Framework](https://www.django-rest-framework.org/)
+- [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+- [Travis-CI](https://travis-ci.com/)
+- [Flake8 Linter](http://flake8.pycqa.org/en/latest/)
+
 
