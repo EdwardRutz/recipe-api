@@ -24,7 +24,12 @@
 - Install Postgres,
 - Flake8, `pip install flake8`
    - Create a flake8 config file in app dir
-- Run tests, `python manage.py test
+- Run tests, `python manage.py test`
+
+## Django
+
+- Create an app, `python manage.py startapp <appName>`
+  - `python manage.py startapp core`
 
 
 ## Notes
