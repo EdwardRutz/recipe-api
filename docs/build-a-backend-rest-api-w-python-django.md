@@ -30,8 +30,14 @@
 - Object Relational Mapper (ORM)
 - Docker will not run on Windows 10 Home but will run on Windows 10 Professional. 
   - Windows 10 home version does not have Hyper -V which Docker uses for virtualization
+  
+  
+```  
+  before_script:
+  
   script: 
-    - run app sh -c "python manage.py test && flake8"
+    - python manage.py test && flake8
+```
     
     
     
