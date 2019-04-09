@@ -22,7 +22,7 @@ A Python, Django, PostGres, REST, recipe API.
 - Django (ORM and Admin) 2.2, `pip install django`
 - Django REST Framework 3.9.2, `pip install djangorestframework`
 - Travis-CI
-- Flake8, `pip install flake8`
+- Flake8 3.3.7, `pip install flake8`
 
 ## Set-Up
 
