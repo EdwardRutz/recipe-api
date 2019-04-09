@@ -5,5 +5,5 @@ python:
   before_script:
   
   script: 
-    - run app sh -c "python manage.py test && flake8"
+    - python manage.py test && flake8
   
