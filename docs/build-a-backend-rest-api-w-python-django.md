@@ -24,6 +24,8 @@
 - Install Postgres,
 - Flake8, `pip install flake8`
    - Create a flake8 config file in app dir
+- Run tests, `python manage.py test
+
 
 ## Notes
 
@@ -39,7 +41,19 @@
     - python manage.py test && flake8
 ```
     
-    
+## Introduction to TDD
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------
     
 ## Git
 
