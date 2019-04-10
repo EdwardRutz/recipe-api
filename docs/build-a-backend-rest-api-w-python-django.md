@@ -31,12 +31,21 @@
 - Create an app, `python manage.py startapp <appName>`
   - `python manage.py startapp core`
 
+## Model and Database Migrations
+
+- Create model, update settings and migrate with django
+`python manage.py makemigrations core`
+
 
 ## Notes
 
 - Object Relational Mapper (ORM)
 - Docker will not run on Windows 10 Home but will run on Windows 10 Professional. 
   - Windows 10 home version does not have Hyper -V which Docker uses for virtualization
+  
+
+
+  
   
   
 ```  

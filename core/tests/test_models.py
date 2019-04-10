@@ -4,9 +4,8 @@ from django.contrib.auth import get_user_model
 
 class ModelTests(TestCase):
     
-    //helper function creates a new user
     def test_create_user_with_email_successful(self):
-        """ Test creating a new user with an email is successful"""
+        """Test creating a new user with an email is successful"""
         email = 'test@aol.com'
         password = 'Testpass123'
         user = get_user_model().objects.create_user(
@@ -17,6 +16,10 @@ class ModelTests(TestCase):
         self.assertEqual(user.email, email)
         self.assertTrue(user.check_password(password))
 
-
-
-
+    def test_new_user_email_is_normalized(self):
+        """Test the email for a new user is normalized"""
+        email = 'test@aol.com'
+        user = get_user_model().objects.create_user(email, 'tet123')
+        
+        self.assertEqual(user.email,email.lower())
+        

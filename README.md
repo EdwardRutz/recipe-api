@@ -19,11 +19,15 @@ A Python, Django, PostGres, REST, recipe API.
 ### Development Dependencies
 
 - Pytest
-- Django (ORM and Admin) 2.2, `pip install django`
+- Django (ORM and Admin) 2.2.0, `pip install django`
 - Django REST Framework 3.9.2, `pip install djangorestframework`
 - Travis-CI
 - Flake8 3.3.7, `pip install flake8`
-
+- Check Django Version, type `pthon` to open REPL and run...
+``` 
+ import django
+ django.VERSION
+```
 ## Set-Up
 
 
